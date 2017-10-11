@@ -6,9 +6,10 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class ThreadTest extends TestCase
+class ReadThreadsTest extends TestCase
 {
     use DatabaseMigrations;
+    protected $thread;
 
     /**
      * setup tests by creating a thread
