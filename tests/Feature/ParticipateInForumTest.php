@@ -32,6 +32,5 @@ class ThreadTest extends TestCase
 
         //assert that the reply can be seen on the thread page
         $this->get('/threads/'.$thread->id)->assertSee($reply->body);
-
     }
 }

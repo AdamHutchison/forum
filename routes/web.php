@@ -12,9 +12,7 @@
 */
 
 //Thread Routes
-Route::get('/threads', 'ThreadController@index');
-Route::get('/threads/{thread}', 'ThreadController@show');
-
+Route::resource('threads', 'ThreadController');
 //Reply Routes
 Route::post('/threads/{thread}/replies', 'ReplyController@store');
 

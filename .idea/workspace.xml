@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597a3621-34cd-441a-87e7-c2bfd77e2f21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/threads/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +21,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="forum" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="CreateThreadsTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="621">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="e#33#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,16 +46,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ThreadTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+        <option value="$PROJECT_DIR$/tests/TestCase.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
       </list>
     </option>
   </component>
@@ -86,6 +107,11 @@
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,18 +150,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507667406236</updated>
-      <workItem from="1507667407449" duration="7782000" />
+      <workItem from="1507667407449" duration="22383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7782000" />
+    <option name="totallyTimeSpent" value="22383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-29" y="-4" width="1366" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.48958334" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -144,7 +170,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5104167" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -188,35 +214,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1507693555829" expanded="true" signature="9:387" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
-          <folding>
-            <marker date="1507693821641" expanded="false" signature="38:114" ph="..." />
-            <marker date="1507693821641" expanded="true" signature="154:1199" ph="{...}" />
-            <marker date="1507693821641" expanded="true" signature="164:255" ph=" A list of the exception types that are not reported. ..." />
-            <marker date="1507693821641" expanded="true" signature="287:303" ph="..." />
-            <marker date="1507693821641" expanded="true" signature="314:423" ph=" A list of the inputs that are never flashed for validation exceptions. ..." />
-            <marker date="1507693821641" expanded="true" signature="454:512" ph="..." />
-            <marker date="1507693821641" expanded="true" signature="523:708" ph=" Report or log an exception. ..." />
-            <marker date="1507693821641" expanded="true" signature="759:807" ph="{...}" />
-            <marker date="1507693821641" expanded="true" signature="816:1008" ph=" Render an exception into an HTTP response. ..." />
-            <marker date="1507693821641" expanded="true" signature="1069:1197" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -228,36 +225,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1507695287811" expanded="true" signature="90:401" ph="{...}" />
-            <marker date="1507695287811" expanded="true" signature="152:209" ph="{...}" />
-            <marker date="1507695287811" expanded="true" signature="238:307" ph="{...}" />
-            <marker date="1507695287811" expanded="true" signature="345:399" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1507693086439" expanded="true" signature="37:157" ph="..." />
-            <marker date="1507693086439" expanded="true" signature="192:866" ph="{...}" />
-            <marker date="1507693086439" expanded="true" signature="231:250" ph=" @test ..." />
-            <marker date="1507693086439" expanded="true" signature="328:864" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="217" column="19" lean-forward="false" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="514">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding>
             <marker date="1507696671017" expanded="false" signature="34:154" ph="..." />
             <marker date="1507696671017" expanded="true" signature="189:1138" ph="{...}" />
@@ -275,63 +254,877 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/UrlRoutable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <marker date="1507052463000" expanded="true" signature="69:527" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="79:160" ph=" Get the value of the model's route key. ..." />
+            <marker date="1507052463000" expanded="true" signature="206:281" ph=" Get the route key for the model. ..." />
+            <marker date="1507052463000" expanded="true" signature="331:474" ph=" Retrieve the model for a bound value. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Thread">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Thread</OriginalElement>
+          <nodes>
+            <node x="" y="">\Illuminate\Database\Eloquent\Model</node>
+            <node x="" y="">\Illuminate\Contracts\Support\Jsonable</node>
+            <node x="" y="">\ArrayAccess</node>
+            <node x="" y="">\Illuminate\Contracts\Queue\QueueableEntity</node>
+            <node x="" y="">\Illuminate\Contracts\Routing\UrlRoutable</node>
+            <node x="" y="">\JsonSerializable</node>
+            <node x="" y="">\Illuminate\Contracts\Support\Arrayable</node>
+            <node x="" y="">\App\Thread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="406.0" y="101.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507521860486" expanded="false" signature="34:100" ph="..." />
+            <marker date="1507521860486" expanded="true" signature="136:293" ph="{...}" />
+            <marker date="1507521860486" expanded="true" signature="146:208" ph=" A basic test example. ..." />
+            <marker date="1507521860486" expanded="true" signature="246:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1507661334075" expanded="false" signature="34:154" ph="..." />
+            <marker date="1507661334075" expanded="true" signature="188:411" ph="{...}" />
+            <marker date="1507661334075" expanded="true" signature="226:245" ph=" @test ..." />
+            <marker date="1507661334075" expanded="true" signature="290:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\Tests\Feature\ThreadTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\Tests\Feature\ThreadTest</OriginalElement>
+          <nodes>
+            <node x="" y="">\PHPUnit\Framework\TestCase</node>
+            <node x="" y="">\PHPUnit\Framework\Assert</node>
+            <node x="" y="">\Tests\TestCase</node>
+            <node x="" y="">\Illuminate\Foundation\Testing\TestCase</node>
+            <node x="" y="">\PHPUnit\Framework\Test</node>
+            <node x="" y="">\PHPUnit\Framework\SelfDescribing</node>
+            <node x="" y="">\Tests\Feature\ThreadTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="434.5" y="637.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
-            <marker date="1507696877011" expanded="true" signature="37:157" ph="..." />
-            <marker date="1507696877011" expanded="true" signature="197:1349" ph="{...}" />
-            <marker date="1507696877011" expanded="true" signature="259:305" ph=" setup tests by creating a thread ..." />
-            <marker date="1507696877011" expanded="true" signature="335:429" ph="{...}" />
-            <marker date="1507696877011" expanded="true" signature="438:457" ph=" @test ..." />
-            <marker date="1507696877011" expanded="true" signature="514:622" ph="{...}" />
-            <marker date="1507696877011" expanded="true" signature="631:650" ph=" @test ..." />
-            <marker date="1507696877011" expanded="true" signature="705:834" ph="{...}" />
-            <marker date="1507696877011" expanded="true" signature="843:862" ph=" @test ..." />
-            <marker date="1507696877011" expanded="true" signature="925:1129" ph="{...}" />
-            <marker date="1507696877011" expanded="true" signature="1138:1157" ph=" @test ..." />
-            <marker date="1507696877011" expanded="true" signature="1212:1347" ph="{...}" />
+            <element signature="e#33#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1507747260377" expanded="true" signature="37:157" ph="..." />
+            <marker date="1507747260377" expanded="true" signature="192:865" ph="{...}" />
+            <marker date="1507747260377" expanded="true" signature="231:250" ph=" @test ..." />
+            <marker date="1507747260377" expanded="true" signature="328:863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <marker date="1507782788892" expanded="true" signature="44:1610" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="71:1608" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="97:600" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="148:585" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="198:566" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="348:543" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="382:487" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="626:838" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="677:823" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="731:794" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="868:1465" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="897:1455" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="952:1436" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="1037:1413" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="1129:1300" ph="..." />
+            <marker date="1507782788892" expanded="true" signature="1470:1592" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1507695287811" expanded="true" signature="90:401" ph="{...}" />
+            <marker date="1507695287811" expanded="true" signature="152:209" ph="{...}" />
+            <marker date="1507695287811" expanded="true" signature="238:307" ph="{...}" />
+            <marker date="1507695287811" expanded="true" signature="345:399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <marker date="1507783110461" expanded="true" signature="53:3316" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="60:448" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="455:3308" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="474:3225" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="536:3187" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="572:3172" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="616:1285" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="799:1065" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="1177:1262" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="1366:3153" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="1463:1557" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="1669:3130" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="1996:3070" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="2124:2250" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="2322:3036" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="2363:2998" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="2436:2712" ph="..." />
+            <marker date="1507783110461" expanded="false" signature="2830:2844" ph="..." />
+            <marker date="1507783110461" expanded="true" signature="2845:2956" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/resources/views/threads/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1507609414959" expanded="true" signature="44:777" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="71:775" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="97:764" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="148:749" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="198:730" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="305:707" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="360:670" ph="..." />
+            <marker date="1507609414959" expanded="true" signature="397:611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1507836090250" expanded="true" signature="9:387" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <marker date="1507837230758" expanded="true" signature="44:1209" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="71:1207" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="97:1196" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="148:1181" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="198:1162" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="317:1139" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="380:1112" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="480:689" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="534:683" ph="..." />
+            <marker date="1507837230758" expanded="true" signature="773:988" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="506">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
-            <marker date="1507697816015" expanded="true" signature="44:99" ph="..." />
-            <marker date="1507697816015" expanded="true" signature="141:398" ph="{...}" />
-            <marker date="1507697816015" expanded="true" signature="177:224" ph="{...}" />
-            <marker date="1507697816015" expanded="true" signature="267:396" ph="{...}" />
-            <marker date="1507697816015" expanded="true" signature="300:388" ph="..." />
-            <marker date="1507697816015" expanded="true" signature="301:387" ph="..." />
+            <marker date="1507837467204" expanded="true" signature="44:99" ph="..." />
+            <marker date="1507837467204" expanded="true" signature="141:448" ph="{...}" />
+            <marker date="1507837467204" expanded="true" signature="177:224" ph="{...}" />
+            <marker date="1507837467204" expanded="true" signature="267:446" ph="{...}" />
+            <marker date="1507837467204" expanded="true" signature="300:388" ph="..." />
+            <marker date="1507837467204" expanded="true" signature="301:387" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1507871032142" expanded="true" signature="130:164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+          <folding>
+            <marker date="1507052463000" expanded="false" signature="62:357" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="382:10379" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="392:466" ph=" Additional headers for the request. ..." />
+            <marker date="1507052463000" expanded="true" signature="513:596" ph=" Additional server variables for the request. ..." />
+            <marker date="1507052463000" expanded="true" signature="644:770" ph=" Define additional headers to be sent with the request. ..." />
+            <marker date="1507052463000" expanded="true" signature="820:933" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="942:1082" ph=" Add a header to be sent with the request. ..." />
+            <marker date="1507052463000" expanded="true" signature="1144:1226" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="1235:1310" ph=" Flush all the configured headers. ..." />
+            <marker date="1507052463000" expanded="true" signature="1347:1418" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="1427:1561" ph=" Define a set of server variables to be sent with the requests. ..." />
+            <marker date="1507052463000" expanded="true" signature="1618:1695" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="1704:1819" ph=" Disable middleware for the test. ..." />
+            <marker date="1507052463000" expanded="true" signature="1879:2321" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="1921:2019" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="2074:2291" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="2108:2280" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="2130:2279" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="2186:2266" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="2330:2508" ph=" Visit the given URI with a GET request. ..." />
+            <marker date="1507052463000" expanded="true" signature="2561:2701" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="2710:2915" ph=" Visit the given URI with a GET request, expecting a JSON response. ..." />
+            <marker date="1507052463000" expanded="true" signature="2972:3039" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="3048:3255" ph=" Visit the given URI with a POST request. ..." />
+            <marker date="1507052463000" expanded="true" signature="3327:3471" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="3480:3714" ph=" Visit the given URI with a POST request, expecting a JSON response. ..." />
+            <marker date="1507052463000" expanded="true" signature="3790:3861" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="3870:4076" ph=" Visit the given URI with a PUT request. ..." />
+            <marker date="1507052463000" expanded="true" signature="4147:4290" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="4299:4532" ph=" Visit the given URI with a PUT request, expecting a JSON response. ..." />
+            <marker date="1507052463000" expanded="true" signature="4607:4677" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="4686:4894" ph=" Visit the given URI with a PATCH request. ..." />
+            <marker date="1507052463000" expanded="true" signature="4967:5112" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="5121:5356" ph=" Visit the given URI with a PATCH request, expecting a JSON response. ..." />
+            <marker date="1507052463000" expanded="true" signature="5433:5505" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="5514:5723" ph=" Visit the given URI with a DELETE request. ..." />
+            <marker date="1507052463000" expanded="true" signature="5797:5943" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="5952:6188" ph=" Visit the given URI with a DELETE request, expecting a JSON response. ..." />
+            <marker date="1507052463000" expanded="true" signature="6266:6339" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="6348:6585" ph=" Call the given URI with a JSON request. ..." />
+            <marker date="1507052463000" expanded="true" signature="6666:7126" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="6803:6979" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="6804:6968" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="7010:7118" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="7135:7473" ph=" Call the given URI and return the Response. ..." />
+            <marker date="1507052463000" expanded="true" signature="7592:8180" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="7790:7955" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="7995:8068" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="8189:8306" ph=" Turn the given URI into a fully qualified URL. ..." />
+            <marker date="1507052463000" expanded="true" signature="8358:8596" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="8406:8451" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="8500:8556" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="8605:8747" ph=" Transform headers array to array of $_SERVER vars with HTTP_* format. ..." />
+            <marker date="1507052463000" expanded="true" signature="8817:9082" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="8906:9067" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="8932:9066" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="9091:9207" ph=" Format the header name for the server array. ..." />
+            <marker date="1507052463000" expanded="true" signature="9261:9442" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="9369:9412" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="9451:9572" ph=" Extract the file uploads from the given data array. ..." />
+            <marker date="1507052463000" expanded="true" signature="9631:10053" ph="{...}" />
+            <marker date="1507052463000" expanded="true" signature="9703:10022" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="9760:9849" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="9887:10012" ph="..." />
+            <marker date="1507052463000" expanded="true" signature="10062:10252" ph=" Create the test response instance from the given response. ..." />
+            <marker date="1507052463000" expanded="true" signature="10307:10377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <marker date="1507398833000" expanded="false" signature="8:225" ph="..." />
+            <marker date="1507398833000" expanded="false" signature="263:2420" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="2425:2458" ph=" A set of assertion methods. ..." />
+            <marker date="1507398833000" expanded="true" signature="2482:82359" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="2492:2514" ph=" @var int ..." />
+            <marker date="1507398833000" expanded="true" signature="2556:2736" ph=" Asserts that an array has a specified key. ..." />
+            <marker date="1507398833000" expanded="true" signature="2812:3315" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="2870:2999" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="2920:2988" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="3070:3202" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="3120:3191" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="3324:3577" ph=" Asserts that an array has a specified subset. ..." />
+            <marker date="1507398833000" expanded="true" signature="3673:4210" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="3750:3882" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="3800:3871" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="3953:4085" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="4003:4074" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="4219:4409" ph=" Asserts that an array does not have a specified key. ..." />
+            <marker date="1507398833000" expanded="true" signature="4488:5029" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="4546:4675" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="4596:4664" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="4746:4878" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="4796:4867" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="5038:5317" ph=" Asserts that a haystack contains a needle. ..." />
+            <marker date="1507398833000" expanded="true" signature="5485:6341" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="5602:5786" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="5820:6123" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="5860:5998" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="5914:5983" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="6131:6271" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="6181:6260" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="6350:6819" ph=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1507398833000" expanded="true" signature="7033:7315" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="7071:7307" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="7324:7611" ph=" Asserts that a haystack does not contain a needle. ..." />
+            <marker date="1507398833000" expanded="true" signature="7782:8758" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="7899:8145" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8179:8540" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8219:8357" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8273:8342" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8548:8688" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8598:8677" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="8767:9244" ph=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1507398833000" expanded="true" signature="9461:9746" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="9502:9738" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="9755:9960" ph=" Asserts that a haystack contains only values of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="10063:10611" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="10182:10314" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="10232:10303" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="10353:10411" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="10441:10603" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="10620:10838" ph=" Asserts that a haystack contains only instances of a given classname ..." />
+            <marker date="1507398833000" expanded="true" signature="10935:11383" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="11054:11186" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="11104:11175" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="11216:11375" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="11392:11773" ph=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1507398833000" expanded="true" signature="11922:12131" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="11964:12123" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="12140:12353" ph=" Asserts that a haystack does not contain only values of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="12459:13065" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="12578:12710" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="12628:12699" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="12749:12807" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="12837:13057" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="13074:13470" ph=" Asserts that a haystack that is stored in a static attribute of a class ..." />
+            <marker date="1507398833000" expanded="true" signature="13622:13834" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="13667:13826" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="13843:14030" ph=" Asserts the number of elements of an array, Countable or Traversable. ..." />
+            <marker date="1507398833000" expanded="true" signature="14113:14587" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="14159:14232" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="14367:14457" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="14487:14579" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="14596:14906" ph=" Asserts the number of elements of an array, Countable or Traversable ..." />
+            <marker date="1507398833000" expanded="true" signature="15035:15219" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="15070:15211" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="15228:15415" ph=" Asserts the number of elements of an array, Countable or Traversable. ..." />
+            <marker date="1507398833000" expanded="true" signature="15501:16003" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="15547:15620" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="15755:15845" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="16012:16322" ph=" Asserts the number of elements of an array, Countable or Traversable ..." />
+            <marker date="1507398833000" expanded="true" signature="16454:16641" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="16492:16633" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="16650:16925" ph=" Asserts that two variables are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="17076:17312" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="17321:17732" ph=" Asserts that a variable is equal to an attribute of an object. ..." />
+            <marker date="1507398833000" expanded="true" signature="17927:18198" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="17963:18190" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="18207:18486" ph=" Asserts that two variables are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="18640:18938" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="18947:19362" ph=" Asserts that a variable is not equal to an attribute of an object. ..." />
+            <marker date="1507398833000" expanded="true" signature="19560:19834" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="19599:19826" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="19843:19999" ph=" Asserts that a variable is empty. ..." />
+            <marker date="1507398833000" expanded="true" signature="20064:20142" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="20151:20399" ph=" Asserts that a static attribute of a class or an attribute of an object ..." />
+            <marker date="1507398833000" expanded="true" signature="20512:20668" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="20547:20660" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="20677:20837" ph=" Asserts that a variable is not empty. ..." />
+            <marker date="1507398833000" expanded="true" signature="20905:21003" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="21012:21264" ph=" Asserts that a static attribute of a class or an attribute of an object ..." />
+            <marker date="1507398833000" expanded="true" signature="21380:21539" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="21418:21531" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="21548:21710" ph=" Asserts that a value is greater than another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="21792:21883" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="21892:22142" ph=" Asserts that an attribute is greater than another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="22268:22449" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="22309:22441" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="22458:22632" ph=" Asserts that a value is greater than or equal to another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="22721:22865" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="22755:22857" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="22874:23136" ph=" Asserts that an attribute is greater than or equal to another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="23269:23457" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="23317:23449" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="23466:23628" ph=" Asserts that a value is smaller than another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="23707:23795" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="23804:24054" ph=" Asserts that an attribute is smaller than another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="24177:24355" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="24215:24347" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="24364:24538" ph=" Asserts that a value is smaller than or equal to another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="24624:24719" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="24728:24990" ph=" Asserts that an attribute is smaller than or equal to another value. ..." />
+            <marker date="1507398833000" expanded="true" signature="25120:25305" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="25165:25297" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="25314:25579" ph=" Asserts that the contents of one file is equal to the contents of another ..." />
+            <marker date="1507398833000" expanded="true" signature="25704:26054" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="25849:26046" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="26063:26332" ph=" Asserts that the contents of one file is not equal to the contents of ..." />
+            <marker date="1507398833000" expanded="true" signature="26460:26813" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="26608:26805" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="26822:27091" ph=" Asserts that the contents of a string is equal ..." />
+            <marker date="1507398833000" expanded="true" signature="27232:27523" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="27328:27515" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="27532:27805" ph=" Asserts that the contents of a string is not equal ..." />
+            <marker date="1507398833000" expanded="true" signature="27949:28243" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="28048:28235" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="28252:28370" ph=" Asserts that a file/dir is readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="28442:28667" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="28486:28558" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="28676:28809" ph=" Asserts that a file/dir exists and is not readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="28884:29147" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="28928:29000" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="29156:29285" ph=" Asserts that a file/dir exists and is writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="29357:29582" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="29401:29473" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="29591:29724" ph=" Asserts that a file/dir exists and is not writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="29799:30062" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="29843:29915" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="30071:30186" ph=" Asserts that a directory exists. ..." />
+            <marker date="1507398833000" expanded="true" signature="30264:30496" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="30309:30381" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="30505:30628" ph=" Asserts that a directory does not exist. ..." />
+            <marker date="1507398833000" expanded="true" signature="30709:30979" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="30754:30826" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="30988:31119" ph=" Asserts that a directory exists and is readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="31201:31326" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="31335:31470" ph=" Asserts that a directory exists and is not readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="31555:31683" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="31692:31823" ph=" Asserts that a directory exists and is writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="31905:32030" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="32039:32174" ph=" Asserts that a directory exists and is not writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="32259:32387" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="32396:32505" ph=" Asserts that a file exists. ..." />
+            <marker date="1507398833000" expanded="true" signature="32577:32802" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="32621:32693" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="32811:32928" ph=" Asserts that a file does not exist. ..." />
+            <marker date="1507398833000" expanded="true" signature="33003:33266" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="33047:33119" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="33275:33396" ph=" Asserts that a file exists and is readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="33468:33578" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="33587:33712" ph=" Asserts that a file exists and is not readable. ..." />
+            <marker date="1507398833000" expanded="true" signature="33787:33900" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="33909:34030" ph=" Asserts that a file exists and is writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="34102:34212" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="34221:34346" ph=" Asserts that a file exists and is not writable. ..." />
+            <marker date="1507398833000" expanded="true" signature="34421:34534" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="34543:34702" ph=" Asserts that a condition is true. ..." />
+            <marker date="1507398833000" expanded="true" signature="34769:34849" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="34858:35021" ph=" Asserts that a condition is not true. ..." />
+            <marker date="1507398833000" expanded="true" signature="35091:35191" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="35200:35360" ph=" Asserts that a condition is false. ..." />
+            <marker date="1507398833000" expanded="true" signature="35428:35509" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="35518:35682" ph=" Asserts that a condition is not false. ..." />
+            <marker date="1507398833000" expanded="true" signature="35753:35854" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="35863:35975" ph=" Asserts that a variable is null. ..." />
+            <marker date="1507398833000" expanded="true" signature="36039:36116" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="36125:36241" ph=" Asserts that a variable is not null. ..." />
+            <marker date="1507398833000" expanded="true" signature="36308:36405" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="36414:36528" ph=" Asserts that a variable is finite. ..." />
+            <marker date="1507398833000" expanded="true" signature="36594:36673" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="36682:36798" ph=" Asserts that a variable is infinite. ..." />
+            <marker date="1507398833000" expanded="true" signature="36866:36947" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="36956:37067" ph=" Asserts that a variable is nan. ..." />
+            <marker date="1507398833000" expanded="true" signature="37130:37206" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="37215:37381" ph=" Asserts that a class has a specified attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="37477:38090" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="37526:37598" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="37690:37776" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="37847:37935" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="38099:38275" ph=" Asserts that a class does not have a specified attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="38374:39003" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="38423:38495" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="38587:38673" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="38744:38832" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="39012:39185" ph=" Asserts that a class has a specified static attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="39287:39906" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="39336:39408" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="39500:39586" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="39657:39745" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="39915:40098" ph=" Asserts that a class does not have a specified static attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="40203:40868" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="40252:40324" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="40416:40502" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="40573:40661" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="40877:41042" ph=" Asserts that an object has a specified attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="41136:41698" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="41185:41257" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="41349:41435" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="41473:41545" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="41707:41882" ph=" Asserts that an object does not have a specified attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="41979:42557" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="42028:42100" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="42192:42278" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="42316:42388" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="42566:42821" ph=" Asserts that two variables have the same type and value. ..." />
+            <marker date="1507398833000" expanded="true" signature="42896:43204" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="42958:43031" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="43039:43197" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="43213:43497" ph=" Asserts that a variable and an attribute of an object have the same type ..." />
+            <marker date="1507398833000" expanded="true" signature="43616:43790" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="43650:43782" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="43799:44068" ph=" Asserts that two variables do not have the same type and value. ..." />
+            <marker date="1507398833000" expanded="true" signature="44146:44473" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="44208:44284" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="44292:44466" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="44482:44773" ph=" Asserts that a variable and an attribute of an object do not have the ..." />
+            <marker date="1507398833000" expanded="true" signature="44895:45072" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="44932:45064" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="45081:45235" ph=" Asserts that a variable is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="45316:45655" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="45424:45513" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="45664:45891" ph=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="46004:46172" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="46044:46164" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="46181:46339" ph=" Asserts that a variable is not of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="46423:46778" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="46531:46620" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="46787:47014" ph=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="47130:47301" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="47173:47293" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="47310:47464" ph=" Asserts that a variable is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="47547:47799" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="47591:47663" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="47808:48035" ph=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="48150:48320" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="48192:48312" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="48329:48487" ph=" Asserts that a variable is not of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="48573:48841" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="48617:48689" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="48850:49077" ph=" Asserts that an attribute is of a given type. ..." />
+            <marker date="1507398833000" expanded="true" signature="49195:49368" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="49240:49360" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="49377:49544" ph=" Asserts that a string matches a given regular expression. ..." />
+            <marker date="1507398833000" expanded="true" signature="49620:49969" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="49663:49735" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="49773:49845" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="49978:50152" ph=" Asserts that a string does not match a given regular expression. ..." />
+            <marker date="1507398833000" expanded="true" signature="50231:50618" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="50274:50346" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="50384:50456" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="50627:50903" ph=" Assert that the size of two arrays (or `Countable` or `Traversable` objects) ..." />
+            <marker date="1507398833000" expanded="true" signature="50982:51556" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="51121:51211" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="51340:51430" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="51460:51548" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="51565:51845" ph=" Assert that the size of two arrays (or `Countable` or `Traversable` objects) ..." />
+            <marker date="1507398833000" expanded="true" signature="51927:52529" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="52066:52156" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="52285:52375" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="52538:52699" ph=" Asserts that a string matches a given format string. ..." />
+            <marker date="1507398833000" expanded="true" signature="52787:53147" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="52829:52901" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="52939:53011" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="53156:53324" ph=" Asserts that a string does not match a given format string. ..." />
+            <marker date="1507398833000" expanded="true" signature="53415:53813" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="53457:53529" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="53567:53639" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="53822:53985" ph=" Asserts that a string matches a given format file. ..." />
+            <marker date="1507398833000" expanded="true" signature="54081:54435" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="54181:54253" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="54444:54616" ph=" Asserts that a string does not match a given format string. ..." />
+            <marker date="1507398833000" expanded="true" signature="54715:55115" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="54815:54887" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="55124:55282" ph=" Asserts that a string starts with a given prefix. ..." />
+            <marker date="1507398833000" expanded="true" signature="55367:55735" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="55409:55481" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="55519:55591" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="55744:55906" ph=" Asserts that a string starts not with a given prefix. ..." />
+            <marker date="1507398833000" expanded="true" signature="55994:56378" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="56036:56108" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="56146:56218" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="56387:56543" ph=" Asserts that a string ends with a given suffix. ..." />
+            <marker date="1507398833000" expanded="true" signature="56626:56970" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="56668:56740" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="56778:56850" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="56979:57139" ph=" Asserts that a string ends not with a given suffix. ..." />
+            <marker date="1507398833000" expanded="true" signature="57225:57607" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="57267:57339" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="57377:57449" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="57616:57772" ph=" Asserts that two XML files are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="57871:58042" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="58051:58211" ph=" Asserts that two XML files are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="58313:58487" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="58496:58691" ph=" Asserts that two XML documents are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="58791:58957" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="58966:59165" ph=" Asserts that two XML documents are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="59268:59437" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="59446:59640" ph=" Asserts that two XML documents are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="59741:59902" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="59911:60109" ph=" Asserts that two XML documents are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="60213:60377" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="60386:60613" ph=" Asserts that a hierarchy of DOMElements matches. ..." />
+            <marker date="1507398833000" expanded="true" signature="60763:63147" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="61043:61149" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61184:62364" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61218:61583" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61350:61569" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61662:62354" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61818:61880" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61924:62340" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61958:62321" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="61992:62299" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="62509:62827" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="62629:62817" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="62902:63140" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="62947:63129" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="63156:63336" ph=" Evaluates a PHPUnit\Framework\Constraint matcher object. ..." />
+            <marker date="1507398833000" expanded="true" signature="63423:63530" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="63539:63668" ph=" Asserts that a string is a valid JSON string. ..." />
+            <marker date="1507398833000" expanded="true" signature="63736:63931" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="63782:63854" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="63940:64123" ph=" Asserts that two given JSON encoded objects or arrays are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="64228:64486" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="64495:64682" ph=" Asserts that two given JSON encoded objects or arrays are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="64790:65064" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="65073:65283" ph=" Asserts that the generated JSON encoded object and the content of the given file are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="65386:65763" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="65772:65986" ph=" Asserts that the generated JSON encoded object and the content of the given file are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="66092:66485" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="66494:66651" ph=" Asserts that two JSON files are equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="66752:67391" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="67400:67561" ph=" Asserts that two JSON files are not equal. ..." />
+            <marker date="1507398833000" expanded="true" signature="67665:68336" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="68345:68377" ph=" @return LogicalAnd ..." />
+            <marker date="1507398833000" expanded="true" signature="68419:68591" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="68600:68631" ph=" @return LogicalOr ..." />
+            <marker date="1507398833000" expanded="true" signature="68672:68843" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="68852:68928" ph=" @param Constraint $constraint ..." />
+            <marker date="1507398833000" expanded="true" signature="68992:69048" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69057:69089" ph=" @return LogicalXor ..." />
+            <marker date="1507398833000" expanded="true" signature="69131:69303" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69312:69344" ph=" @return IsAnything ..." />
+            <marker date="1507398833000" expanded="true" signature="69384:69427" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69436:69464" ph=" @return IsTrue ..." />
+            <marker date="1507398833000" expanded="true" signature="69502:69541" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69550:69620" ph=" @param callable $callback ..." />
+            <marker date="1507398833000" expanded="true" signature="69669:69721" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69730:69759" ph=" @return IsFalse ..." />
+            <marker date="1507398833000" expanded="true" signature="69798:69838" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69847:69875" ph=" @return IsJson ..." />
+            <marker date="1507398833000" expanded="true" signature="69913:69952" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="69961:69989" ph=" @return IsNull ..." />
+            <marker date="1507398833000" expanded="true" signature="70027:70066" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="70075:70105" ph=" @return IsFinite ..." />
+            <marker date="1507398833000" expanded="true" signature="70145:70186" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="70195:70227" ph=" @return IsInfinite ..." />
+            <marker date="1507398833000" expanded="true" signature="70269:70312" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="70321:70348" ph=" @return IsNan ..." />
+            <marker date="1507398833000" expanded="true" signature="70385:70423" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="70432:70547" ph=" @param Constraint $constraint ..." />
+            <marker date="1507398833000" expanded="true" signature="70626:70731" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="70740:70906" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="71020:71133" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="71142:71221" ph=" @param string $type ..." />
+            <marker date="1507398833000" expanded="true" signature="71270:71333" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="71342:71426" ph=" @param string $classname ..." />
+            <marker date="1507398833000" expanded="true" signature="71491:71566" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="71575:71640" ph=" @param mixed $key ..." />
+            <marker date="1507398833000" expanded="true" signature="71687:71737" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="71746:71932" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="72051:72216" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="72225:72454" ph=" @param string $attributeName ..." />
+            <marker date="1507398833000" expanded="true" signature="72598:72860" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="72638:72852" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="72667:72814" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="72869:72898" ph=" @return IsEmpty ..." />
+            <marker date="1507398833000" expanded="true" signature="72937:72977" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="72986:73018" ph=" @return IsWritable ..." />
+            <marker date="1507398833000" expanded="true" signature="73060:73103" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73112:73144" ph=" @return IsReadable ..." />
+            <marker date="1507398833000" expanded="true" signature="73186:73229" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73238:73275" ph=" @return DirectoryExists ..." />
+            <marker date="1507398833000" expanded="true" signature="73322:73370" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73379:73411" ph=" @return FileExists ..." />
+            <marker date="1507398833000" expanded="true" signature="73453:73496" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73505:73572" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="73621:73673" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73682:73747" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="73803:73929" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="73843:73921" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="73938:74020" ph=" @param string $attributeName ..." />
+            <marker date="1507398833000" expanded="true" signature="74083:74171" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="74180:74268" ph=" @param string $attributeName ..." />
+            <marker date="1507398833000" expanded="true" signature="74337:74431" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="74440:74523" ph=" @param string $attributeName ..." />
+            <marker date="1507398833000" expanded="true" signature="74587:74676" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="74685:74752" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="74801:74853" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="74862:74935" ph=" @param string $className ..." />
+            <marker date="1507398833000" expanded="true" signature="74989:75046" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="75055:75117" ph=" @param string $type ..." />
+            <marker date="1507398833000" expanded="true" signature="75160:75206" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="75215:75279" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="75325:75374" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="75383:75448" ph=" @param mixed $value ..." />
+            <marker date="1507398833000" expanded="true" signature="75501:75624" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="75541:75616" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="75633:75709" ph=" @param string $pattern ..." />
+            <marker date="1507398833000" expanded="true" signature="75773:75833" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="75842:75930" ph=" @param string $string ..." />
+            <marker date="1507398833000" expanded="true" signature="75976:76048" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="76057:76130" ph=" @param mixed $prefix ..." />
+            <marker date="1507398833000" expanded="true" signature="76185:76243" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="76252:76351" ph=" @param string $string ..." />
+            <marker date="1507398833000" expanded="true" signature="76418:76481" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="76490:76561" ph=" @param mixed $suffix ..." />
+            <marker date="1507398833000" expanded="true" signature="76614:76670" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="76679:76738" ph=" @param int $count ..." />
+            <marker date="1507398833000" expanded="true" signature="76783:76829" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="76838:76968" ph=" Fails a test with the given message. ..." />
+            <marker date="1507398833000" expanded="true" signature="77017:77104" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="77113:77416" ph=" Returns the value of an attribute of a class or an object. ..." />
+            <marker date="1507398833000" expanded="true" signature="77491:78455" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="77540:77612" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="77704:77790" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="77834:78162" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="77884:78026" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="77938:78011" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78075:78151" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78206:78340" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78253:78329" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78388:78447" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78464:78731" ph=" Returns the value of a static attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="78807:79833" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="78852:78924" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="78968:79044" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79089:79161" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79253:79339" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79417:79664" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79541:79606" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79717:79815" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="79842:80109" ph=" Returns the value of an object's attribute. ..." />
+            <marker date="1507398833000" expanded="true" signature="80182:81565" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="80224:80296" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80341:80413" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80505:80591" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80607:80690" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80724:81060" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80845:81050" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="80867:80985" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="81019:81036" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="81095:81395" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="81152:81213" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="81448:81547" ph="..." />
+            <marker date="1507398833000" expanded="true" signature="81574:81695" ph=" Mark the test as incomplete. ..." />
+            <marker date="1507398833000" expanded="true" signature="81758:81819" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="81828:81943" ph=" Mark the test as skipped. ..." />
+            <marker date="1507398833000" expanded="true" signature="82003:82061" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="82070:82145" ph=" Return the current assertion count. ..." />
+            <marker date="1507398833000" expanded="true" signature="82185:82226" ph="{...}" />
+            <marker date="1507398833000" expanded="true" signature="82235:82277" ph=" Reset the assertion counter. ..." />
+            <marker date="1507398833000" expanded="true" signature="82319:82357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nikic/php-parser/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="621">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#33#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

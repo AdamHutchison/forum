@@ -23,6 +23,21 @@
                 @endforeach
             </div>
         </div>
+        @if(auth()->check())
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <form action="/threads/{{$thread->id}}/replies" method = "POST">
+                        {{csrf_field()}}
+                        <div class = "form-group">
+                            <textarea name = "body" id = "body" rows="5" class = "form-control" placeholder="Something to say?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Reply</button>
+                    </form>
+                </div>
+            </div>
+        @else
+            <p class = "text-center">Please <a href = "/login">sign in</a> to participate in this discussion</p>
+        @endif
     </div>
 @endsection
 
