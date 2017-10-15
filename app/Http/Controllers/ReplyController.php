@@ -20,6 +20,6 @@ class ReplyController extends Controller
             'user_id' => auth()->id()
         ]);
 
-        return redirect("/threads/$thread->id");
+        return redirect("/threads/{$thread->channel->slug}/$thread->id");
     }
 }

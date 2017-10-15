@@ -31,6 +31,6 @@ class ParticipateInForumTest extends TestCase
         $this->post("threads/$thread->id/replies", $reply->toArray());
 
         //assert that the reply can be seen on the thread page
-        $this->get("threads/$thread->id")->assertSee($reply->body);
+        $this->get('threads/'.$thread->channel->slug.'/'.$thread->id)->assertSee($reply->body);
     }
 }
