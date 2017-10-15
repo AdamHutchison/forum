@@ -14,6 +14,11 @@
                                 <label for = "title">Title:</lable>
                                 <input type = "text" name = "title" class = "form-control" id = "title" >
                             </div>
+
+                            <div class = "form-group">
+                                <label for = "channel">Channel</lable>
+                                <input type = "text" class = "form-control" id = "channel" name = 'channel'>
+                            </div>
                             
                             <div class = "form-group">
                                 <label for = "body">Body:</label>

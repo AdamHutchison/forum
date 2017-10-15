@@ -53,8 +53,16 @@ class ThreadTest extends TestCase
         ];
 
         $this->thread->addReply($reply);
-
         $this->assertCount(1, $this->thread->replies);
+    }
+
+    /**
+     * @test
+     */
+    public function a_thread_can_make_a_string_path()
+    {
+        $thread = factory('App\Thread')->create();
+        $this->assertEquals('/threads/' . $thread->channel->slug . '/' . $thread->id, $thread->path());
     }
 
     /**
@@ -63,6 +71,6 @@ class ThreadTest extends TestCase
     public function a_thread_belongs_to_a_channel()
     {
         $channel = $this->thread->channel;
-        $this->assertInstanceOf('App\Channel',$channel);
+        $this->assertInstanceOf('App\Channel', $channel);
     }
 }

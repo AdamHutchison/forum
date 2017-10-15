@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use PHPUnit\Exception;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -28,9 +29,19 @@ class ParticipateInForumTest extends TestCase
         $reply = factory('App\Reply')->create();
 
         //post the reply
-        $this->post("threads/$thread->id/replies", $reply->toArray());
+        $this->post($thread->path().'/replies', $reply->toArray());
 
         //assert that the reply can be seen on the thread page
-        $this->get('threads/'.$thread->channel->slug.'/'.$thread->id)->assertSee($reply->body);
+        $this->get($thread->path())->assertSee($reply->body);
     }
+    /**
+     *@test
+     */
+     public function an_unauthenticated_user_may_not_add_replies()
+     {
+        $this->post('/threads/channel/1/replies',[])
+            ->assertRedirect('/login');
+
+
+     }
 }

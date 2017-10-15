@@ -44,7 +44,7 @@ class CreateThreadsTest extends TestCase
         $this->post('/threads', $thread->toArray());
 
         //Then when we visit the thread page, we should see the thread
-        $this->get('/threads/'.$thread->channel->slug.'/'.$thread->id)
+        $this->get($thread->path())
             ->assertSee($thread->title)
             ->assertSee($thread->body);
     }
