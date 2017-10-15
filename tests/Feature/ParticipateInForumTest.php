@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class ThreadTest extends TestCase
+class ParticipateInForumTest extends TestCase
 {
     use DatabaseMigrations;
 
@@ -28,9 +28,9 @@ class ThreadTest extends TestCase
         $reply = factory('App\Reply')->create();
 
         //post the reply
-        $this->post('/threads/'.$thread->id.'/replies', $reply->toArray());
+        $this->post("threads/$thread->id/replies", $reply->toArray());
 
         //assert that the reply can be seen on the thread page
-        $this->get('/threads/'.$thread->id)->assertSee($reply->body);
+        $this->get("threads/$thread->id")->assertSee($reply->body);
     }
 }

@@ -300,6 +300,7 @@ class ComposerStaticInitb5f48b6acda25fc6d3b3d62e2dfee184
     );
 
     public static $classMap = array (
+        'App\\Channel' => __DIR__ . '/../..' . '/app/Channel.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -3445,10 +3446,12 @@ class ComposerStaticInitb5f48b6acda25fc6d3b3d62e2dfee184
         'Symfony\\Component\\VarDumper\\VarDumper' => __DIR__ . '/..' . '/symfony/var-dumper/VarDumper.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
-        'Tests\\Feature\\ThreadTest' => __DIR__ . '/../..',
+        'Tests\\Feature\\CreateThreadsTest' => __DIR__ . '/../..' . '/tests/Feature/CreateThreadsTest.php',
+        'Tests\\Feature\\ReadThreadsTest' => __DIR__ . '/../..' . '/tests/Feature/ReadThreadsTest.php',
+        'Tests\\Feature\\ThreadTest' => __DIR__ . '/../..' . '/tests/Feature/ParticipateInForumTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
-        'Tests\\Unit\\ThreadTest' => __DIR__ . '/../..',
+        'Tests\\Unit\\ThreadTest' => __DIR__ . '/../..' . '/tests/Unit/ThreadTest.php',
         'Tests\\Unit\\replyTest' => __DIR__ . '/../..' . '/tests/Unit/ReplyTest.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',

@@ -22,4 +22,14 @@ class Thread extends Model
     {
         $this->replies()->create($reply);
     }
+
+    public function channel()
+    {
+        return $this->belongsTo(Channel::class);
+    }
+
+    public function path()
+    {
+        return "/threads/{$this->channel->slug}/{$this->id}";
+    }
 }

@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Channel' => $baseDir . '/app/Channel.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -3151,10 +3152,12 @@ return array(
     'Symfony\\Component\\VarDumper\\VarDumper' => $vendorDir . '/symfony/var-dumper/VarDumper.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
-    'Tests\\Feature\\ThreadTest' => $baseDir . '/tests/Feature/ReadThreadsTest.php',
+    'Tests\\Feature\\CreateThreadsTest' => $baseDir . '/tests/Feature/CreateThreadsTest.php',
+    'Tests\\Feature\\ReadThreadsTest' => $baseDir . '/tests/Feature/ReadThreadsTest.php',
+    'Tests\\Feature\\ThreadTest' => $baseDir . '/tests/Feature/ParticipateInForumTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
     'Tests\\Unit\\ExampleTest' => $baseDir . '/tests/Unit/ExampleTest.php',
-    'Tests\\Unit\\ThreadTest' => $baseDir . '/tests/Unit/ReadThreadsTest.php',
+    'Tests\\Unit\\ThreadTest' => $baseDir . '/tests/Unit/ThreadTest.php',
     'Tests\\Unit\\replyTest' => $baseDir . '/tests/Unit/ReplyTest.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
