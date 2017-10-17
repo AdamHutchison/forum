@@ -41,7 +41,10 @@ class CreateThreadsTest extends TestCase
 
         //When we hit the endpoint to create a new thread
         $thread = factory('App\Thread')->make();
-        $response = $this->post('/threads', $thread->toArray())
+        $response = $this->post('/threads', $thread->toArray());
+
+        //Then when we visit the thread page, we should see the thread
+        $this->get($response->headers->get('Location'))
             ->assertSee($thread->title)
             ->assertSee($thread->body);
     }
@@ -69,13 +72,11 @@ class CreateThreadsTest extends TestCase
      */
     public function a_thread_requires_a_valid_channel()
     {
-        $this->withExceptionHandling();
-        factory('App\Channel', 2)->create();
-
+        factory('App\Channel',2)->create();
         $this->publishThread(['channel_id' => null])
             ->assertSessionHasErrors('channel_id');
 
-        $this->publishThread(['channel_id' => 999])
+        $this->publishThread(['channel_id' => 9999])
             ->assertSessionHasErrors('channel_id');
     }
 
@@ -84,7 +85,7 @@ class CreateThreadsTest extends TestCase
         $user = factory('App\User')->create();
         $this->be($user);
 
-        $thread = factory('App\Thread', $overrides)->create();
+        $thread = factory('App\Thread')->make($overrides);
 
         return $this->post('/threads', $thread->toArray());
     }

@@ -46,7 +46,7 @@ class ThreadController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
-            'channel_id' => 'required|exist:channels,id'
+            'channel_id' => 'required|exists:channels,id'
         ]);
         $thread->title = $request['title'];
         $thread->body = $request['body'];
