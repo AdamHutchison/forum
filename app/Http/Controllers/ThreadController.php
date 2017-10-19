@@ -17,6 +17,12 @@ class ThreadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function userThreads(Thread $threads, $username)
+    {
+        $threads = $threads->getUserThreads($username);
+        return view('threads.userThreads', compact('threads'));
+    }
+
     public function index()
     {
 

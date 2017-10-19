@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Thread extends Model
@@ -31,5 +32,12 @@ class Thread extends Model
     public function path()
     {
         return '/threads/'.$this->channel->slug.'/'.$this->id;
+    }
+
+    public function getUserThreads($userName)
+    {
+        $user = User::where('name',$userName)->firstOrFail();
+        $usersThreads = $this->where('user_id', $user->id)->get();
+        return $usersThreads;
     }
 }

@@ -12,8 +12,10 @@
 */
 
 //Thread Routes
+
 Route::get('/threads', 'ThreadController@index');
 Route::get('/threads/create', 'ThreadController@create');
+Route::get('/threads/user/{username}','ThreadController@userThreads');
 Route::get('/threads/{channel}','ChannelController@index');
 Route::get('/threads/{channel}/{thread}', 'ThreadController@show');
 Route::post('/threads','ThreadController@store');
