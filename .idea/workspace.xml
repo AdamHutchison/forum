@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597a3621-34cd-441a-87e7-c2bfd77e2f21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Filters/Filters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Channel.php" afterPath="$PROJECT_DIR$/app/Channel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Thread.php" afterPath="$PROJECT_DIR$/app/Thread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThreadController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2461">
-              <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="537">
+              <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,7 +47,6 @@
         <option value="$PROJECT_DIR$/database/factories/ChannelFactory.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_10_14_035255_create_channels_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ThreadFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/channelIndex.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" />
@@ -70,10 +61,11 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Channel.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
         <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+        <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
       </list>
     </option>
   </component>
@@ -89,7 +81,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="34" />
     <option name="width" value="1346" />
@@ -126,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,10 +141,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -210,16 +202,15 @@
       <workItem from="1508178902067" duration="81000" />
       <workItem from="1508179017457" duration="3267000" />
       <workItem from="1508264408902" duration="35001000" />
-      <workItem from="1508641886491" duration="2289000" />
+      <workItem from="1508641886491" duration="9300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86809000" />
+    <option name="totallyTimeSpent" value="93820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-28" width="1366" height="796" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="34" width="1346" height="744" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.46908602" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -251,7 +242,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.46908602" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.46908602" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -301,15 +292,15 @@
         <state relative-caret-position="690">
           <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
-            <marker date="1508643352010" expanded="true" signature="83:829" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="158:223" ph=" Filters constructor. ..." />
-            <marker date="1508643352010" expanded="true" signature="275:322" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="331:381" ph=" @param $builder ..." />
-            <marker date="1508643352010" expanded="true" signature="419:666" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="522:634" ph="..." />
-            <marker date="1508643352010" expanded="true" signature="571:624" ph="..." />
-            <marker date="1508643352010" expanded="true" signature="675:724" ph=" @param $filter ..." />
-            <marker date="1508643352010" expanded="true" signature="762:827" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="83:829" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="158:223" ph=" Filters constructor. ..." />
+            <marker date="1508645724529" expanded="true" signature="275:322" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="331:381" ph=" @param $builder ..." />
+            <marker date="1508645724529" expanded="true" signature="419:666" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="522:634" ph="..." />
+            <marker date="1508645724529" expanded="true" signature="571:624" ph="..." />
+            <marker date="1508645724529" expanded="true" signature="675:724" ph=" @param $filter ..." />
+            <marker date="1508645724529" expanded="true" signature="762:827" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -572,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_10_14_035255_create_channels_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -788,23 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <marker date="1508533392360" expanded="true" signature="27:76" ph="..." />
-            <marker date="1508533392360" expanded="true" signature="104:720" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="166:223" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="252:321" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="359:413" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="444:505" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="533:608" ph="{...}" />
-            <marker date="1508533392360" expanded="true" signature="666:718" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -841,44 +808,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
+    <entry file="file://$PROJECT_DIR$/app/Filters/Filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="353">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1508536631091" expanded="true" signature="35:73" ph="..." />
-            <marker date="1508536631091" expanded="true" signature="110:451" ph="{...}" />
-            <marker date="1508536631091" expanded="true" signature="154:274" ph=" Filter the threads by a given username ..." />
-            <marker date="1508536631091" expanded="true" signature="313:449" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="83:829" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="158:223" ph=" Filters constructor. ..." />
+            <marker date="1508645724529" expanded="true" signature="275:322" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="331:381" ph=" @param $builder ..." />
+            <marker date="1508645724529" expanded="true" signature="419:666" ph="{...}" />
+            <marker date="1508645724529" expanded="true" signature="522:634" ph="..." />
+            <marker date="1508645724529" expanded="true" signature="571:624" ph="..." />
+            <marker date="1508645724529" expanded="true" signature="675:724" ph=" @param $filter ..." />
+            <marker date="1508645724529" expanded="true" signature="762:827" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Filters/Filters.php">
+    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="230">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <marker date="1508643352010" expanded="true" signature="83:829" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="158:223" ph=" Filters constructor. ..." />
-            <marker date="1508643352010" expanded="true" signature="275:322" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="331:381" ph=" @param $builder ..." />
-            <marker date="1508643352010" expanded="true" signature="419:666" ph="{...}" />
-            <marker date="1508643352010" expanded="true" signature="522:634" ph="..." />
-            <marker date="1508643352010" expanded="true" signature="571:624" ph="..." />
-            <marker date="1508643352010" expanded="true" signature="675:724" ph=" @param $filter ..." />
-            <marker date="1508643352010" expanded="true" signature="762:827" ph="{...}" />
+            <marker date="1508645714297" expanded="true" signature="35:73" ph="..." />
+            <marker date="1508645714297" expanded="true" signature="110:452" ph="{...}" />
+            <marker date="1508645714297" expanded="true" signature="155:275" ph=" Filter the threads by a given username ..." />
+            <marker date="1508645714297" expanded="true" signature="314:450" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2461">
-          <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+        <state relative-caret-position="483">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
+            <marker date="1508648491623" expanded="true" signature="44:132" ph="..." />
+            <marker date="1508648491623" expanded="true" signature="175:2805" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="211:305" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="314:392" ph=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1508648491623" expanded="true" signature="462:590" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="599:703" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1508648491623" expanded="true" signature="734:785" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="794:947" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1508648491623" expanded="true" signature="1009:1445" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="1040:1188" ph="..." />
+            <marker date="1508648491623" expanded="true" signature="1051:1187" ph="..." />
+            <marker date="1508648491623" expanded="true" signature="1454:1582" ph=" Display the specified resource. ..." />
+            <marker date="1508648491623" expanded="true" signature="1635:1703" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="1712:1858" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1508648491623" expanded="true" signature="1901:1924" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="1933:2120" ph=" Update the specified resource in storage. ..." />
+            <marker date="1508648491623" expanded="true" signature="2183:2206" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="2215:2355" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1508648491623" expanded="true" signature="2401:2424" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="2433:2528" ph=" @param Channel $channel ..." />
+            <marker date="1508648491623" expanded="true" signature="2604:2803" ph="{...}" />
+            <marker date="1508648491623" expanded="true" signature="2698:2764" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <marker date="1508649633397" expanded="true" signature="27:76" ph="..." />
+            <marker date="1508649633397" expanded="true" signature="104:1584" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="144:254" ph=" Provides a global query scope so that the reply count is returned with every thread ..." />
+            <marker date="1508649633397" expanded="true" signature="293:451" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="355:443" ph="..." />
+            <marker date="1508649633397" expanded="true" signature="389:442" ph="..." />
+            <marker date="1508649633397" expanded="true" signature="460:590" ph=" defines relationship between a thread and the replies ..." />
+            <marker date="1508649633397" expanded="true" signature="622:679" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="688:815" ph=" defines relationship between a thread and a user ..." />
+            <marker date="1508649633397" expanded="true" signature="845:914" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="923:984" ph=" allows a reply to be added ..." />
+            <marker date="1508649633397" expanded="true" signature="1023:1077" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="1086:1157" ph=" @return \Illuminate\Database\Eloquent\Relations\BelongsTo ..." />
+            <marker date="1508649633397" expanded="true" signature="1189:1250" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="1259:1287" ph=" @return string ..." />
+            <marker date="1508649633397" expanded="true" signature="1316:1391" ph="{...}" />
+            <marker date="1508649633397" expanded="true" signature="1400:1471" ph=" @param $query ..." />
+            <marker date="1508649633397" expanded="true" signature="1530:1582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ class ThreadFilters extends Filters
 {
 
     protected $filters = ['by'];
+
     /**
      * Filter the threads by a given username
      * @param $builder
