@@ -15,10 +15,9 @@
 
 Route::get('/threads', 'ThreadController@index');
 Route::get('/threads/create', 'ThreadController@create');
-Route::get('/threads/user/{username}','ThreadController@userThreads');
-Route::get('/threads/{channel}','ChannelController@index');
 Route::get('/threads/{channel}/{thread}', 'ThreadController@show');
 Route::post('/threads','ThreadController@store');
+Route::get('/threads/{channel}','ThreadController@index');
 //Reply Routes
 Route::post('/threads/{channel}/{thread}/replies', 'ReplyController@store');
 

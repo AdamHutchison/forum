@@ -34,10 +34,8 @@ class Thread extends Model
         return '/threads/'.$this->channel->slug.'/'.$this->id;
     }
 
-    public function getUserThreads($userName)
+    public static function scopeFilter($query, $filters)
     {
-        $user = User::where('name',$userName)->firstOrFail();
-        $usersThreads = $this->where('user_id', $user->id)->get();
-        return $usersThreads;
+        return $filters->apply($query);
     }
 }

@@ -66,7 +66,6 @@ class ReadThreadsTest extends TestCase
      */
     public function a_user_can_filter_threads_according_to_a_tag()
     {
-        $this->withoutExceptionHandling();
         $channel = factory('App\Channel')->create();
         $threadInChannel = factory('App\Thread')->create(['channel_id' => $channel->id]);
         $threadNotInChannel = factory('App\Thread')->create();
@@ -80,12 +79,12 @@ class ReadThreadsTest extends TestCase
      */
      public function a_user_can_filter_threads_by_any_username()
      {
-        $user = factory('App\User')->create(['name'=>'John Doe']);
+        $user = factory('App\User')->create(['name'=>'JohnDoe']);
         $this->be($user);
         $threadByJohn = factory('App\Thread')->create(['user_id'=>$user->id]);
         $threadNotByJohn = factory('App\Thread')->create();
 
-        $this->get('threads/user/John%20Doe')
+        $this->get('threads?by=JohnDoe')
             ->assertSee($threadByJohn->title)
             ->assertDontSee($threadNotByJohn->title);
 
